@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Gatekeeper Pro - Browser Extension</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .extension-info {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .install-steps {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+
+        .install-steps ol {
+            padding-left: 20px;
+        }
+
+        .install-steps li {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+
+        code {
+            background: #e9ecef;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container extension-info">
+        <h1>🔐 Password Gatekeeper Pro</h1>
+        <p>A secure browser extension for managing your passwords with AES-256 encryption.</p>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>🔒 AES-256 Encryption</h3>
+                <p>Military-grade encryption for all your passwords</p>
+            </div>
+            <div class="feature-card">
+                <h3>☁️ Secure Sync</h3>
+                <p>Sync across devices with encrypted API</p>
+            </div>
+            <div class="feature-card">
+                <h3>🎯 Auto-Fill</h3>
+                <p>Automatically fill login forms</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔍 Breach Check</h3>
+                <p>Check passwords against known breaches</p>
+            </div>
+        </div>
+
+        <div class="install-steps">
+            <h2>📥 Installation</h2>
+            <ol>
+                <li>Open Chrome and navigate to <code>chrome://extensions</code></li>
+                <li>Enable <strong>Developer mode</strong> (toggle in top right)</li>
+                <li>Click <strong>Load unpacked</strong></li>
+                <li>Select the <code>extension</code> folder from this project</li>
+                <li>Click the extension icon in your toolbar to get started!</li>
+            </ol>
+        </div>
+
+        <div class="install-steps">
+            <h2>🚀 Start Sync Server</h2>
+            <ol>
+                <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+                <li>Run the server: <code>python app.py</code></li>
+                <li>Configure the extension with API URL: <code>http://localhost:5000</code></li>
+            </ol>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px;">
+            <a href="/" style="color: #667eea;">← Back to Password Checker</a>
+        </p>
+    </div>
+</body>
+
+</html>
