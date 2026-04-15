@@ -143,7 +143,7 @@ Contributions are welcome and appreciated.
 
 ### Contributors
 - [@urstrulyPrateeK](https://github.com/urstrulyPrateeK) - Project author
-- [@Chhavi001](https://github.com/Chhavi001) - Documentation updates
+- [@Chhavi001](https://github.com/Chhavi001) - Code and documentation contributor
 
 ## 📄 License
 Open‑source for personal and educational use.
