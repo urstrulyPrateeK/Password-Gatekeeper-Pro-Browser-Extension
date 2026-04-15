@@ -131,5 +131,19 @@ Server runs at $http://localhost:5000$.
 - Vault search filters and tags
 - Full sync conflict resolution
 
+## 🤝 Contribution
+Contributions are welcome and appreciated.
+
+### How to contribute
+1. Fork the repository
+2. Create a new branch (`feat/your-change` or `fix/your-change`)
+3. Make your changes and test locally
+4. Commit with a clear message
+5. Push your branch and open a Pull Request
+
+### Contributors
+- [@urstrulyPrateeK](https://github.com/urstrulyPrateeK) - Project author
+- [@Chhavi001](https://github.com/Chhavi001) - Documentation updates
+
 ## 📄 License
 Open‑source for personal and educational use.
